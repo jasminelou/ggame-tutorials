@@ -19,11 +19,11 @@ ball = Sprite(ball_asset, (0, 0))
 ball.scale = 0.07
 ball.y = 200
 
-ball.dir = 1
+ball.dir = 0.76
 ball.go = True
 
 def reverse(b):
-    b.dir *= -1
+    b.dir *= -0.76
     pop.play()
 
 def step():
